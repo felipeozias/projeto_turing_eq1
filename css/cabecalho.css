@@ -15,12 +15,12 @@ body {
 
 #menu {
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-around;
     background-color: black;
     height: 47px;
     min-width: 700px;
     align-items: center;
+    font-size: 16px;
 }
 
 #menu ul {
