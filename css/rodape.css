@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* - ESTILO PARA O RODAPÉ - */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+#footer {
+    background-color: green;
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+#footer p {
+    text-align: center;
+}
