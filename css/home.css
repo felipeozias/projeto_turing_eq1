@@ -47,4 +47,20 @@ a {
     margin: 10px 30px;
 }
 
+#img_alpha{
+    padding: 10px;
+}
 
+#img_alpha:hover{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #00996e66;
+    transition: background-color .9s;
+}
+
+#principios div:hover{
+    background-color: #0060505d;
+    transition: background-color .3s;
+    border:solid white;
+    transition: border .1s;
+}

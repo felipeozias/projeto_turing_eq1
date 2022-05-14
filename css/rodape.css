@@ -8,7 +8,7 @@
 }
 
 body {
-    display: grid;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -25,6 +25,7 @@ main {
     position: static;
     bottom: 0;
     margin-top: 10px;
+    height: 80px;
 }
 
 #footer p {
